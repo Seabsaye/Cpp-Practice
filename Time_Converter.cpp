@@ -17,7 +17,7 @@ int main ()
 	cout << "Welcome to the second converter!" <<endl; 
 	do 
 	{
-		cout << "Please enter an interger value that is greater than zero for the number of seconds you wish to convert: " << endl;
+		cout << "Please enter an integer value that is greater than zero for the number of seconds you wish to convert: " << endl;
 		cin >> seconds;
 	
 		if (seconds <= 0) {
