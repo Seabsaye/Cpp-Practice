@@ -66,7 +66,7 @@ void output(double a, double root_1, double root_2, complex_root components_of_r
 	{
 		cout << "\nThe roots of your function are: " << root_1
 			 << " and " << root_2 << endl;
-	}else {
+	} else {
 		components_of_root.neg_imaginary = ((sqrt(abs(discriminant)))/(2*a));
 		cout << "\nThe imaginary roots of your function are: \n\n" << components_of_root.real << " - "
 			 << components_of_root.neg_imaginary << "j and "
